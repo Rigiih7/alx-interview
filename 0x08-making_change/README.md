@@ -68,27 +68,29 @@
      The value of a coin will always be an integer greater than 0
      You can assume you have an infinite number of each denomination of coin in the list
      Your solution’s runtime will be evaluated in this task
-     carrie@ubuntu:~/0x08-making_change$ cat 0-main.py
-     #!/usr/bin/python3
-     """
-     Main file for testing
-     """
 
-     makeChange = __import__('0-making_change').makeChange
+         carrie@ubuntu:~/0x08-making_change$ cat 0-main.py
+         #!/usr/bin/python3
+         """
+         Main file for testing
+         """
 
-     print(makeChange([1, 2, 25], 37))
+         makeChange = __import__('0-making_change').makeChange
 
-     print(makeChange([1256, 54, 48, 16, 102], 1453))
+         print(makeChange([1, 2, 25], 37))
 
-     carrie@ubuntu:~/0x08-making_change$
-     carrie@ubuntu:~/0x08-making_change$ ./0-main.py
-     7
-     -1
-     carrie@ubuntu:~/0x08-making_change$
-     Repo:
+         print(makeChange([1256, 54, 48, 16, 102], 1453))
 
-     GitHub repository: alx-interview
-     Directory: 0x08-making_change
-     File: 0-making_change.py
+         carrie@ubuntu:~/0x08-making_change$
+         carrie@ubuntu:~/0x08-making_change$ ./0-main.py
+         7
+         -1
+         carrie@ubuntu:~/0x08-making_change$
+
+
+         Repo:
+         GitHub repository: alx-interview
+         Directory: 0x08-making_change
+         File: 0-making_change.py
 
      Copyright © 2024 ALX, All rights reserved.
